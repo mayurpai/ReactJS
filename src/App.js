@@ -7,6 +7,14 @@ import Counter from "./components/Counter";
 import { Destructuring } from "./components/Destructuring";
 import FunctionClick from "./components/FunctionClick";
 import EventBind from "./components/EventBind";
+import ParentComponent from "./components/ParentComponent";
+import UserGreeting from "./components/UserGreeting";
+import NameList from "./components/NameList";
+import StyleSheet from "./components/StyleSheet";
+import "./appStyles.css";
+import styles from "./appStyles.module.css";
+import Form from "./components/Form";
+
 function App() {
   return (
     <div className="App">
@@ -25,7 +33,14 @@ function App() {
       {/* <Counter/> */}
       {/* <Destructuring name="Mayur" lname="Pai"></Destructuring> */}
       {/* <FunctionClick></FunctionClick> */}
-      <EventBind />
+      {/* <EventBind /> */}
+      {/* <ParentComponent /> */}
+      {/* <UserGreeting /> */}
+      {/* <NameList></NameList> */}
+      {/* <StyleSheet></StyleSheet>
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.sucess}>Success</h1> */}
+      <Form></Form>
     </div>
   );
 }
