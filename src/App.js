@@ -14,6 +14,7 @@ import StyleSheet from "./components/StyleSheet";
 import "./appStyles.css";
 import styles from "./appStyles.module.css";
 import Form from "./components/Form";
+import LifeCycle from "./components/LifeCycle";
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
       {/* <StyleSheet></StyleSheet>
       <h1 className='error'>Error</h1>
       <h1 className={styles.sucess}>Success</h1> */}
-      <Form></Form>
+      {/* <Form></Form> */}
+      <LifeCycle />
     </div>
   );
 }
