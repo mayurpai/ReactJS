@@ -15,6 +15,11 @@ import "./appStyles.css";
 import styles from "./appStyles.module.css";
 import Form from "./components/Form";
 import LifeCycle from "./components/LifeCycle";
+import Fragment from "./components/Fragment";
+import Tables from "./components/Tables";
+import PureComp from "./components/PureComp";
+import MemoComp from "./components/MemoComp";
+import InputRefs from "./components/InputRefs";
 
 function App() {
   return (
@@ -42,7 +47,12 @@ function App() {
       <h1 className='error'>Error</h1>
       <h1 className={styles.sucess}>Success</h1> */}
       {/* <Form></Form> */}
-      <LifeCycle />
+      {/* <LifeCycle /> */}
+      {/* <Fragment /> */}
+      {/* <Tables></Tables> */}
+      {/* <PureComp></PureComp> */}
+      {/* <MemoComp name="Mayur"></MemoComp> */}
+      <InputRefs></InputRefs>
     </div>
   );
 }
