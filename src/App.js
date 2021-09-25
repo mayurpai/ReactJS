@@ -20,6 +20,12 @@ import Tables from "./components/Tables";
 import PureComp from "./components/PureComp";
 import MemoComp from "./components/MemoComp";
 import InputRefs from "./components/InputRefs";
+import Input from "./components/Input";
+import FRParentInput from "./components/FRParentInput";
+import Hero from "./components/Hero";
+import ErrorBoundary from "./components/ErrorBoundary";
+import ClickCounter from "./components/ClickCounter";
+import HoverCounter from "./components/HoverCounter";
 
 function App() {
   return (
@@ -52,7 +58,17 @@ function App() {
       {/* <Tables></Tables> */}
       {/* <PureComp></PureComp> */}
       {/* <MemoComp name="Mayur"></MemoComp> */}
-      <InputRefs></InputRefs>
+      {/* <InputRefs></InputRefs> */}
+      {/* <Input></Input> */}
+      {/* <FRParentInput></FRParentInput> */}
+      {/* <ErrorBoundary>
+        <Hero heroName="Pai"></Hero>
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Mayur"></Hero>
+      </ErrorBoundary> */}
+      <ClickCounter></ClickCounter>
+      <HoverCounter></HoverCounter>
     </div>
   );
 }
